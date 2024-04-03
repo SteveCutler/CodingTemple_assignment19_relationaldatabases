@@ -1,0 +1,5 @@
+The one-to-one relationship between vehicles and rental agreements allows for flexible management and updating
+of the car rental stock and rental agreements. New vehicle additions simply involve populating the Vehicles table, updates to rental 
+agreements can be performed as long as the integrity of the one-to-one relationship is maintained 
+(one vehicle unique vehicle id for each unique rental agreement), and vehicle availability checks 
+ are simple to perform by checking the connection between these two tables.

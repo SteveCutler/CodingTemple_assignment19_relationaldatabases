@@ -1,0 +1,10 @@
+First Normal Form:
+My database design adheres to first normal form for several reasons. Each table describes one type of data, 
+each column describes one entity, and each row in the table describes one atomic part of that entity.
+
+Second Normal Form:
+Every data type is dependent on a primary key.
+
+Third Normal Form:
+The primary key defines all non-key columns. The publisher ID makes sure that the diagram follows third normal form. By linking 
+a publisher id to each book, and the publisher id completely describing each publisher I have made the chart follow third normal form.
